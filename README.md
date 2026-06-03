@@ -2,6 +2,7 @@
 data analytics project showcasing customer behavior analysis using python, sql and power BI
 
 📊 Data Analytics Project
+
 📌 Overview
 
 This project demonstrates an end-to-end data analytics workflow, from raw data ingestion to business insights and reporting. It includes data cleaning, exploratory data analysis (EDA), SQL-based querying across multiple databases, and interactive dashboard development.
