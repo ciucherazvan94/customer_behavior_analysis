@@ -153,9 +153,3 @@ jupyter notebook
 
 The objective of this project is to demonstrate practical data analytics skills by transforming raw data into meaningful insights and business recommendations using industry-standard tools and techniques.
 
-Open .pbix file in Power BI Desktop
-Refresh data source if needed
-📌 Notes
-This project is designed for portfolio and learning purposes
-Focus is on end-to-end analytics workflow and business insights
-Easily extendable with machine learning or advanced forecasting
