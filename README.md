@@ -1,99 +1,158 @@
 # customer_behavior_analysis_project
 data analytics project showcasing customer behavior analysis using python, sql and power BI
 
-📊 Data Analytics Project
+# 📊 Data Analytics Project
 
-📌 Overview
+## 📌 Overview
 
-This project demonstrates an end-to-end data analytics workflow, from raw data ingestion to business insights and reporting. It includes data cleaning, exploratory data analysis (EDA), SQL-based querying across multiple databases, and interactive dashboard development.
+This project demonstrates an end-to-end data analytics workflow, from data preparation and exploration to business insights and reporting.
 
-The goal is to extract meaningful insights from data and present them in a clear, business-ready format.
+The project combines Python, SQL, and Power BI to analyze structured datasets, uncover patterns, and present findings through interactive dashboards and reports.
 
-📁 Dataset
-Source: CSV / Excel / database extracts (custom or publicly available datasets)
-Format: Structured tabular data
-Content: Includes customer, product, and transaction-level information
-Key fields may include:
-Customer ID
-Product Category
-Purchase Amount
-Date
-Region / Segment
-🛠️ Tools & Technologies
-Python (Pandas, NumPy, Matplotlib, Seaborn)
-SQL
-PostgreSQL
-MySQL
-SQL Server
-Power BI (Dashboard development & visualization)
-Jupyter Notebook / Anaconda
-Gamma (for presentation creation)
-Excel (basic validation & quick checks)
-🔄 Project Workflow
-1. Data Loading
-Imported datasets into Python using Pandas
-Verified structure, data types, and missing values
-2. Data Cleaning
-Handled missing values
-Removed duplicates
-Standardized formats (dates, categories, text normalization)
-Checked for outliers and inconsistencies
-3. Exploratory Data Analysis (EDA)
-Analyzed sales trends and customer behavior
-Identified top-performing categories and segments
-Visualized distributions and correlations
-4. SQL Analysis
+## 📁 Dataset Overview
 
-Performed structured queries across:
+The project uses structured datasets containing customer, product, and transaction-related information.
 
-PostgreSQL
-MySQL
-SQL Server
+### 🧾 Key Fields
 
-Key SQL operations:
+* **Customer ID** – Unique customer identifier
+* **Product Category** – Product classification
+* **Purchase Amount** – Transaction value
+* **Date** – Transaction date
+* **Region / Segment** – Customer or geographical segment
 
-Aggregations (SUM, AVG, COUNT)
-GROUP BY analysis (e.g., revenue by category)
-Joins between customer and transaction tables
-Filtering and segmentation
-5. Power BI Dashboard
-Built interactive dashboard with:
-Revenue by category
-Customer segmentation
-Time-based trends
-Key performance indicators (KPIs)
-Added slicers for dynamic filtering
-6. Reporting
-Summarized insights into a structured business report (Word/PDF)
-Highlighted key findings and recommendations
-7. Presentation (Gamma)
-Created a professional presentation using Gamma
-Focused on storytelling and business impact
-📊 Dashboard Highlights
-Top revenue-generating product categories
-Customer segment performance (e.g., age groups, subscription vs non-subscription)
-Purchase behavior trends over time
-KPI overview (total revenue, average order value, customer count)
-📈 Results & Insights
-Identified the most profitable product categories
-Found differences in spending behavior across customer segments
-Subscription users showed higher consistency in purchases
-Clear opportunities for increasing revenue through targeted marketing and discounts
-Data-driven insights support better business decision-making
-🚀 How to Run the Project
-1. Clone the repository
+## 🛠️ Tools & Technologies
+
+* Python (Pandas, NumPy, Matplotlib, Seaborn)
+* SQL
+* PostgreSQL
+* MySQL
+* SQL Server
+* Power BI
+* Jupyter Notebook
+* Anaconda
+* Gamma
+* Microsoft Excel
+
+## 🔄 Project Workflow
+
+### 1. Data Loading
+
+* Imported datasets using Python and Pandas
+* Verified data structure and types
+* Reviewed missing values and data quality
+
+### 2. Data Cleaning
+
+* Handled missing values
+* Removed duplicate records
+* Standardized formats and categories
+* Checked for inconsistencies and outliers
+
+### 3. Exploratory Data Analysis (EDA)
+
+* Analyzed customer behavior
+* Explored sales and purchasing trends
+* Identified top-performing categories and segments
+* Visualized distributions and relationships between variables
+
+### 4. SQL Analysis
+
+Performed data analysis using:
+
+* PostgreSQL
+* MySQL
+* SQL Server
+
+Key SQL concepts applied:
+
+* Aggregations (SUM, AVG, COUNT)
+* GROUP BY analysis
+* Joins across multiple tables
+* Filtering and segmentation
+* Business-focused analytical queries
+
+### 5. Power BI Dashboard
+
+Developed an interactive dashboard featuring:
+
+* Revenue by category
+* Customer segmentation
+* Sales trends over time
+* Key performance indicators (KPIs)
+* Dynamic filtering with slicers
+
+### 6. Reporting
+
+* Summarized findings in a business-oriented report
+* Highlighted actionable insights
+* Provided recommendations based on analysis
+
+### 7. Presentation
+
+* Created a professional presentation to communicate results
+* Focused on data storytelling and business impact
+
+## 📊 Dashboard Highlights
+
+* Top revenue-generating product categories
+* Customer segment performance analysis
+* Purchase behavior trends
+* KPI overview including revenue, customer count, and average order value
+
+## 📈 Results & Insights
+
+* Identified the most profitable product categories
+* Analyzed differences in customer purchasing behavior
+* Evaluated segment-level performance
+* Uncovered opportunities for revenue growth
+* Supported decision-making through data-driven insights
+
+## 🚀 How to Run the Project
+
+### Clone the Repository
+
+```bash
 git clone https://github.com/ciucherazvan94/data-analytics-project.git
-2. Install dependencies
+```
+
+### Install Dependencies
+
+```bash
 pip install -r requirements.txt
-3. Run Python analysis
+```
 
-Open Jupyter Notebook:
+### Run the Analysis
 
+```bash
 jupyter notebook
-4. SQL Setup
-Import dataset into PostgreSQL / MySQL / SQL Server
-Run queries from /sql folder
-5. Power BI
+```
+
+### SQL Setup
+
+* Import datasets into PostgreSQL, MySQL, or SQL Server
+* Execute queries from the SQL scripts folder
+
+### Power BI
+
+* Open the `.pbix` file in Power BI Desktop
+* Refresh the data source if necessary
+
+## 🎯 Key Skills Demonstrated
+
+* Data Cleaning
+* Exploratory Data Analysis (EDA)
+* SQL Querying
+* Database Management
+* Data Visualization
+* Dashboard Development
+* Business Analytics
+* Data Storytelling
+
+## 🚀 Project Goal
+
+The objective of this project is to demonstrate practical data analytics skills by transforming raw data into meaningful insights and business recommendations using industry-standard tools and techniques.
+
 Open .pbix file in Power BI Desktop
 Refresh data source if needed
 📌 Notes
